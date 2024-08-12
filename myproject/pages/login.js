@@ -3,7 +3,7 @@ import { By, until } from 'selenium-webdriver';
 class LoginPage {
     constructor(driver, expect) {
         this.driver = driver;
-        this.expect = expect; // Store expect as a class property
+        this.expect = expect; 
         this.loginButtonId = By.id('login2');
         this.usernameFieldId = By.id('loginusername');
         this.passwordFieldId = By.id('loginpassword');
