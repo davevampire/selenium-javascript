@@ -1,0 +1,24 @@
+{
+  "name": "selenium-javascript",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+"scripts": {
+  "test": "mocha --reporter mochawesome --reporter-options reportDir=reports,reportFilename=report 'myproject/test/*.js'"
+},
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.7.3",
+    "mochawesome": "^7.1.3",
+    "mochawesome-report-generator": "^6.2.0",
+    "selenium-webdriver": "^4.23.0"
+  },
+  "dependencies": {
+    "puppeteer": "^23.0.2"
+  }
+}

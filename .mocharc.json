@@ -1,0 +1,10 @@
+{
+    "spec": "myproject/test/*.js",
+    "timeout": 5000,
+    "reporter": "mocha-awesome",
+    "reporterOptions": {
+      "reportDir": "reports",
+      "reportFilename": "report",
+      "quiet": true
+    }
+  }
